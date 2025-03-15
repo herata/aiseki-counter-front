@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   description: "相席店舗の来店者数をリアルタイムで確認できるダッシュボード",
 };
 
+export const runtime = 'edge';
+
 export default function RootLayout({
   children,
 }: Readonly<{
